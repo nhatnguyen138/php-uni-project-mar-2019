@@ -1,0 +1,93 @@
+body {
+	background-color: #80BFFF;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 18px;
+	color: black;
+}
+
+h3 {
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin: 0px 12px;
+	color: black;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 14px;
+	margin: 0px 20px;
+}
+
+hr {
+	color: white;
+}
+
+.menu_block {
+	border-radius: 25px;
+	background: #3366FF;
+	padding: 20px;
+	color:white;
+	width: 600px;
+	margin: 5px 10px;
+}
+
+.request_block {
+	border: 1px solid white;
+	border-radius: 5px;
+	background: grey;
+	padding: 20px;
+	color:white;
+	width: 550px;
+	margin: 5px 5px;
+}
+
+#request_button {
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 80px;
+	text-align: center;
+	margin: 0px 120px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#accept_button {
+	background-color: green;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 5px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#decline_button {
+	background-color: red;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin: auto 427px;
+}
+
+input[type=text] {
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}

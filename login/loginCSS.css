@@ -1,0 +1,64 @@
+body {
+	background-color: #80BFFF;
+}
+
+#domain_name {
+	margin: 0 -10px;
+	padding: 10px 20px;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	text-align:center;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#loginbox {
+	border-radius: 25px;
+	background: #3366FF;
+	padding: 20px;
+	width: 270px;
+	height: 300px;
+	margin: 100px auto;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+input[type=password] {
+	width: 100%;
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	border-radius: 6px;
+	margin: 0px 4px;
+	color: white;
+	padding: 16px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}

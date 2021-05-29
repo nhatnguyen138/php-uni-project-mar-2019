@@ -1,0 +1,80 @@
+body {
+	background-color: #80BFFF;
+}
+
+#domain_name {
+	margin: 0 -10px;
+	padding: 10px 20px;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	text-align:center;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 20px;
+	color: black;
+	margin: 0px -10px;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form {
+	margin: 0px 10px;
+}
+
+input[type=text] {
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+input[type=password] {
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+select {
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+div {
+	border-radius: 25px;
+	background: #3366FF;
+	padding: 20px;
+	color:white;
+	width: 580px;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	border-radius: 6px;
+	margin: 0px auto;
+	color: white;
+	padding: 16px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}

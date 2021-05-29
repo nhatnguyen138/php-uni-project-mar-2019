@@ -1,0 +1,71 @@
+body {
+	background-color: #80BFFF;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 18px;
+	color: black;
+}
+
+h3 {
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin: 0px 12px;
+	color: black;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 14px;
+	margin: 0px 20px;
+}
+
+hr {
+	color: white;
+}
+
+div {
+	border-radius: 25px;
+	background: #3366FF;
+	padding: 20px;
+	color:white;
+	width: 600px;
+	margin: 5px 10px;
+}
+
+#request_button {
+	background-color: grey;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 80px;
+	text-align: center;
+	margin: 0px 120px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#edit_button {
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 9px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 0px 150px;
+}
+
+input[type=text] {
+	padding: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
